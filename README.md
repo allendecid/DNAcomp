@@ -5,7 +5,7 @@ DNAcomp is a small program writen in c++ to produce compressed DNA sequences fro
 
 The bases A,C,G,T are compressed into bytes with the following translation A=00,C=01,G=10,T=11. If the end of the sequence is a partial byte (less than 4 bases) it writes it in the separate file.
 
-##Single sequence compression
+## Single sequence compression
 
 To compress and decompress a single sequence fasta file use the sources for singlecomp.cpp and singledecomp.cpp.
 
@@ -23,7 +23,7 @@ singlecomp outputname *.fasta
 singledecomp *.newfasta compressedfilename
 ```
 
-##Multiple sequence compression
+## Multiple sequence compression
 
 To compress and decompress a multiple sequence fasta file use the sources for multicomp.cpp and multidecomp.cpp.
 
@@ -43,7 +43,7 @@ multidecomp *.newfasta compressedfile
 
 ##Example use
 
-First donwload the sample files from the sample folder and put them in the current directory of the program.
+First download the sample files from the sample folder and put them in the current directory of the program.
 
 Then use:
 
